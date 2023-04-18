@@ -5,7 +5,7 @@ import {  AiOutlineHeart } from "react-icons/ai";
 import {BsHandbag} from 'react-icons/bs';
 import { AiOutlineSearch } from "react-icons/ai";
 import logo from "../images/myntra_logo.png"
-import { NavLink} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -13,9 +13,9 @@ const Navbar = () => {
     <div className='flex justify-between px-[50px]  h-[80px] items-center navbar'>
 
 <div className='flex gap-[60px]'>
-      <NavLink to="/" >
+      <Link to="/" >
       <img src={logo} className='h-[55px]'></img>
-      </NavLink>
+      </Link>
       <ul className='flex justify-center items-center gap-8 text-[14px] font-semibold  text-gray-600'>
         <NavLink to="/Men">MEN</NavLink>
         <NavLink to="/Women">WOMEN</NavLink>
