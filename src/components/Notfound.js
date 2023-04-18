@@ -1,10 +1,10 @@
 import React from 'react';
-import notfound from '../images/notfound.webp';
+import './Notfound.css';
+
 
 const Notfound = () => {
   return (
-    <div>
-        <img className='mx-auto' src={notfound}/>
+    <div className='notfoundimage w-screen h-screen overflow-x-hidden overflow-y-hidden'>
     </div>
   )
 }

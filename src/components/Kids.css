@@ -1,0 +1,17 @@
+.image-product{
+    background-image: url(../images/boy\ green.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    transition: smooth;
+    transition-duration: 1s;
+}
+.image-product:hover{
+    background-position: bottom;
+}
+.kidsbackimage{
+    background-image: url("../images//kids\ back\ image.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
